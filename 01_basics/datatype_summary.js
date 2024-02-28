@@ -38,3 +38,24 @@ console.log(typeof(myFunction));
 
 
 
+
+//stack(primitive)->copy, Heap(Non-primitive)->reference!
+
+let myName = "Km"
+let anotherName = myName
+anotherName = "Chaiaurcode"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Km@google.com"
+
+console.log(userOne.email);
