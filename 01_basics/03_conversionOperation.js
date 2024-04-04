@@ -8,8 +8,11 @@ let valueInNumber = Number(score);
 
 
 //"32"-> 32
-//"32abc"->NaN->number
+//"32abc"->NaN->number not a number
 //true->1 false->0
+//null-> 0
+//undefined->NaN
+
 
 let isLoggedIn = 1
 
