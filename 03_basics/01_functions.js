@@ -28,7 +28,7 @@ const result = sum(3, 4)
 //console.log("Result: " , result);
 
 function message(username){
-    if(username === undefines){          //!username //undefined
+    if(username === undefined){          //!username //undefined
         console.log("please neter an username");
         return 
     }
