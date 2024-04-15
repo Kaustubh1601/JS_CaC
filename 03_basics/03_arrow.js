@@ -47,4 +47,4 @@ const addTwo = (num1, num2) => ({username :"km"})
 console.log(addTwo(3,4));
 
 const myArray = []
-myArray.forEach(() => ())
+//myArray.forEach(() => ())
