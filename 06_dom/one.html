@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  class="heading">DOM learning  on CaC</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+        </ul>
+
+    </div>
+</body>
+</html>
+
+//document.getElementById('').innerHTML = "<h1>CaC</h1>"
+//document.getElementById('title')
+//document.getElementById('title').id
+//document.getElementById('title').className
+//document.getElementById('title').getAttribute
+//document.getElementById('title').getAttribute('id') -> title
+//document.getElementById('title').getAttribute('class')
+//document.getElementById('title').setAttribute('class', 'test heading')
+//const title = document.getElementById('title')
+//title.style.backgroundColor = 'green'
+//title.style.padding = "15px"
+//title.style.borderRadius = '15px'
+
+//title.textContent -> Every content
+//title.innerHTML -> with HTML attributes/tags
+//title.innerText -> only visible texts
+
+//document.querySelector('h1') -> first h1
+//document.querySelector('#id')
+//document.querySelector('.class')
+//document.querySelector('input[type="password"]')
+//document.querySelector('p:first-child')
+
+//const myul = document.querySelector('ul')
+//const turnGreen = myul.querySelector('li')
+//turnGreen.style.backgroundColor = "green"
+//turnGreen.innerText = "five"
+
+//document.querySelectorAll('li')
+//->NodeList(3) 
+//const tempLiList = document.querySelectorAll('li')
+//tempLiList -> not a pure array/ no map
+//tepLiList[0].style.backgroundColor = 'green'
+//const myH1 = document.querySelectorAll('h1')
+//myH1[0].style.background = ''
+//forEach
+//tempLiList.forEach( function (l){
+    //l.style.backgroundColor = 'green'
+//})
+
+
+//const tempClassList = document.getElementByClassName('list-item')
+//->HTMLCollection [] not an array no forEach
+//tempClassList.forEach( function(li){
+//  console.log(li)
+//})
+//-> foreach is not a function
+//
+
+//covert to array
+
+//Array.from(tempClassList)
+//const myConvertedArray = Array.from(tempClassList)
+//forEach works now
+
+//
+//
+//
+//
+
+
+
