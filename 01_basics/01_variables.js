@@ -10,7 +10,7 @@ accountCity = "Varanasi"
 
 /*prefer not to use var
 beacuse of issue in block scope and functional scope
-*/
+*///hbbvygvty
 
 //console.log();
 
