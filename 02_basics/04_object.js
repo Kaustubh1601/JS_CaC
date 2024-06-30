@@ -1,4 +1,4 @@
-//constructor non singleton object 
+//constructor singleton object 
 //const tinderUser = new Object() //singleton object
 const tinderUser = {} //non-singleton object
 tinderUser.id = "123abc"
