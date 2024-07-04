@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+    <script>
+
+        //const sayDate = function(str){
+        //    console.log(str, Date.now());
+        //}
+
+        //const intervalId = sayDate(sayDate, 1000, "hi")
+
+        //clearTimeout(intervalId)
+
+        document.querySelector('#start').addEventListener('click', function(){
+            
+            const print = function(){
+                console.log("KM", Date.now());
+            }
+            
+            var initiate = setInterval(print, 2000)
+        })
+
+        document.querySelector('#stop').addEventListener('click', function(){
+           
+            clearTimeout(initiate)
+        })
+
+    </script>
+</body>
+</html>
