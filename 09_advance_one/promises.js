@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function(resolve, reject){
-   //do an async calls
+   //do an async task
    //db calls, cryptography, netwrok calls
    
    setTimeout(function(){
@@ -44,7 +44,8 @@ const promiseFour = new Promise(function(resolve, reject){
     },1000)
 })
 
-promiseFour.then((user) => {
+promiseFour
+.then((user) => {
     console.log(user);
     return user.username
 }).then((username) => {
@@ -95,7 +96,7 @@ consumePromiseFive()
 //      console.log("E:", error);
 //   }
 //}
-getAllUsers()
+//getAllUsers()
 
 fetch('url')
 .then((response)=>{
