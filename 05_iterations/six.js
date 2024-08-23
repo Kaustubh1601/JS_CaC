@@ -13,7 +13,8 @@ console.log(values);
 
 //const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-//const newNums = myNums.filter( (num) => num > 4 )       //requires callback fn //returns value
+//const newNums = myNums.filter( (num) => num > 4 )  //requires callback fn //returns value
+//console.log(newNums)
 
 //const newNums = myNums.filter( (num) => {
   //  'return' num > 4
