@@ -1,4 +1,4 @@
-//primitive
+//primitive: call by value
 //: String, Number, null, undefined, Symbol, Boolean, BigInt
 
 
